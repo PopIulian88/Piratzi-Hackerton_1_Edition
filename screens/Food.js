@@ -1,13 +1,19 @@
-import {createBottomTabNavigator} from "@react-navigation/bottom-tabs";
-import {homeStyles} from "../style/homeStyles";
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, ScrollView } from 'react-native';
 import {foodStyles} from "../style/foodStyles";
+import Spacer from "../Components/Spacer";
+import ShopCard from "../Components/ShopCard";
 
 
 export default function Food() {
     return (
         <View style={foodStyles.container}>
-            <Text> AIci e home-ul</Text>
+            <ScrollView style={foodStyles.scrollView}>
+            <Spacer height={50}/>
+            <ShopCard/>
+
+            <Spacer height={50}/>
+            <ShopCard/>
+            </ScrollView>
         </View>
     )
 }

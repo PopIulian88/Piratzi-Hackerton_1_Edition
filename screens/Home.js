@@ -6,6 +6,7 @@ import Stopwatch from "react-native-stopwatch-timer/lib/stopwatch";
 import Timer from "react-native-stopwatch-timer/lib/timer";
 import {Colors} from "react-native/Libraries/NewAppScreen";
 import {AntDesign, Foundation, MaterialCommunityIcons, MaterialIcons} from "@expo/vector-icons";
+import Spacer from "../Components/Spacer";
 
 class TimerApp extends Component {
     constructor(props) {
@@ -57,6 +58,10 @@ class TimerApp extends Component {
                 {/*<TouchableHighlight onPress={this.resetStopwatch}>*/}
                 {/*    <Text style={{fontSize: 30}}>Reset</Text>*/}
                 {/*</TouchableHighlight>*/}
+                <Spacer height={30}/>
+                <View style={{flex: 0.2, alignSelf: "flex-end", padding: 10, borderWidth: 1, borderRadius: 10}}>
+                    <Text style={{fontSize: 24, color: "white"}}>Day: 1</Text>
+                </View>
 
                 <View style={homeStyles.timerContainer}>
                     <View style={homeStyles.circleTimerContainer}>
@@ -102,7 +107,7 @@ class TimerApp extends Component {
     }
 }
 
-const handleTimerComplete = () => alert("custom completion function");
+const handleTimerComplete = () => alert("Bravo tati, mai putin si stai pe Netflix");
 
 const options = {
     container: {
