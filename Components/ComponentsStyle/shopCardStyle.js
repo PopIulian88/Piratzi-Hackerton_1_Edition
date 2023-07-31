@@ -1,12 +1,22 @@
 import {StyleSheet} from "react-native";
 
 const shopCardStyles = StyleSheet.create({
-    container: {
-        height: 50,
-        width: "100%",
-        padding: 10,
+    foodBar: {
+        flexDirection: "row",
+        alignItems: "center",
+        justifyContent: "space-between",
+    },
 
-        backgroundColor: "green",
+    foodText: {
+        fontSize: 18,
+        color: "white",
+    },
+
+    foodPhoto: {
+        width: 100,
+        height: 100,
+        resizeMode: 'stretch',
+        borderRadius: 10,
     },
 });
 
