@@ -14,11 +14,12 @@ export default function Shop() {
             <Text style={shopStyles.textStyle}>30</Text>
             <Text style={shopStyles.textStyle}>days until you get a free month of</Text>
             <Spacer/><Spacer/>
+
             <Image style={shopStyles.imageContainer}
                 source={require('../assets/img.png')}></Image>
             <Spacer/><Spacer/><Spacer/><Spacer/>
-            <Image style={shopStyles.imageContainer}
-                source={require('../assets/netflix2.jpeg')}></Image>
+
+            <Button title={"Collect reward"} onPress={() => alert("Codul este: XAPX-YYAA-NDDIDP")}/>
         </View>
     )
 
