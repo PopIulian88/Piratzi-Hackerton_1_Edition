@@ -8,9 +8,11 @@ On the main page we have a timer that checks if you do the 30 minutes of sports 
 <img src="ReadMePhotos/HomePhoto.jpeg" height="400" width="200">
 
 If you exercise every day for 30 days, you can win a free month of Netflix, which you can collect from the shop.
+
 <img src="ReadMePhotos/ShopPhoto.png" height="400" width="200">
 
 Our application also has a nutritional part where users can see delicious and healthy food recipes.In the future, we are thinking of adding the possibility to take a picture with the camera of the dishes made at home and to receive extra points.
+
 <img src="ReadMePhotos/FoodPhoto.jpeg" height="400" width="200">
 
 ----------------------------
